@@ -1,20 +1,17 @@
 # Zagadnienie 4 – Algorytm Euklidesa (NWD)
 
 ## Opis
-Program oblicza największy wspólny dzielnik
-wielu dodatnich liczb całkowitych.
-
-Zastosowano iteracyjną wersję algorytmu Euklidesa.
+Program oblicza największy wspólny dzielnik wielu dodatnich liczb
+całkowitych z wykorzystaniem iteracyjnego algorytmu Euklidesa.
 
 ## Zasada działania
 NWD(a, b) = NWD(b, a mod b)
 
-## Cechy algorytmu
-- wysoka wydajność
-- logarytmiczna złożoność
-- prosta implementacja
+## Złożoność
+- czasowa: O(log n)
+- pamięciowa: O(1)
 
 ## Zastosowania
-- upraszczanie ułamków
 - kryptografia
-- matematyka obliczeniowa
+- upraszczanie ułamków
+- algorytmy matematyczne
