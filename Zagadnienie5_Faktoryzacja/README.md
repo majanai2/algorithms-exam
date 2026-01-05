@@ -15,3 +15,22 @@ z dokładnością do kolejności.
 - kryptografia (RSA)
 - bezpieczeństwo danych
 - teoria liczb
+---
+
+## Przykładowe obliczenia
+
+Dla liczby: **84**
+
+Proces rozkładu:
+- 84 = 2 × 42  
+- 42 = 2 × 21  
+- 21 = 3 × 7  
+- 7 = 7
+
+Ostateczny rozkład:  
+**84 = 2 × 2 × 3 × 7**
+
+## Wnioski
+
+Algorytm dzielenia próbnego jest prosty i skuteczny dla niewielkich liczb,
+jednak dla bardzo dużych liczb jego wydajność gwałtownie spada.
