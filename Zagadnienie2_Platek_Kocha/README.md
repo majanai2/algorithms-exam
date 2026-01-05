@@ -16,3 +16,22 @@ co wpływa na szczegółowość fraktala.
 - grafika komputerowa
 - wizualizacje
 - symulacje przyrodnicze
+---
+
+## Przykładowe testy
+
+Dla głębokości rekurencji:
+- 0 → trójkąt
+- 1 → 12 odcinków
+- 2 → 48 odcinków
+- 3 → 192 odcinki
+
+## Obserwacje
+
+Zwiększanie głębokości powoduje gwałtowny wzrost liczby elementów
+i bardzo wyraźny wzrost szczegółowości fraktala.
+
+## Wnioski
+
+Rekurencja pozwala w prosty sposób tworzyć bardzo złożone struktury,
+jednak nadmierna głębokość może powodować spadek wydajności programu.
